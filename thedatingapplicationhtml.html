@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>The Dating Application</title>
+      <link rel="stylesheet" type="text/css" href="thedatingapplicationcss.css">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <h1>The Dating Application</h1>
+      <h3>Application for permission to date my son</h3>
+      <hr/>
+      <h4>BASIC INFORMATION</h4>
+      <div>
+         <form action="https://www.google.com/"; method="get">
+            <label for="fname">First name: </label><input type="text"; id="fname"; name="fname"; required="required"; maxlength="10"; size="10">
+            <label for="mname">Middle name: </label><input type="text"; id="mname"; name="mname"; required="required"; maxlength="10"; size="10">
+            <label for="lname">Last name: </label><input type="text"; id="lname"; name="lname"; required="required"; maxlength="10"; size="10">
+            <br/><br/>
+            <label for="email">Email: </label><input type="email"; id="email"; name="email"; required="required"; maxlength="26"; size="26"; placeholder="Enter your gmail address">
+            <br/><br/>
+            <label for="phone">Mobile No.: </label><input type="tel" id="phone"; name="phone"; required="required"; maxlength="10"; size="10">
+            <br/><br/>
+            <label for="Date">Date of proposed outing: </label><input type="date"; id="date"; name="date"; required="required">
+            &emsp;Is the date at a private/public location: <input type="radio"; name="location"; value="Private">Private <input type="radio"; name="location"; value="Public" required="required">Public<br/>
+      </div>
+      <hr/>
+      <h4>GETTING TO KNOW YOU</h4>
+      <p>
+      Age: 
+      <select name="age">
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      </select>
+      &emsp;Height: <input type="text"; maxlength="3"; size="3">
+      &emsp;Weight: <input type="text"; maxlength="2"; size="3">
+      <br/>
+      1. Education:
+      <select name="Education">
+      <option value="Undergraduate">Undergraduate</option>
+      <option value="Graduate">Graduate</option>
+      <option value="Postgraduate">Postgraduate</option>
+      </select><br/>
+      2. Do you smoke? <input type="radio"; name="select1"; value="Yes">Yes <input type="radio"; name="select1"; value="No"; required="required">No<br/>
+      3. Do you use any illegal substances? <input type="radio"; name="select2"; value="Yes">Yes <input type="radio"; name="select2"; value="No"; required="required">No<br/>
+      4. Have you ever cheated on a boyfriend? <input type="radio"; name="select3"; value="Yes">Yes <input type="radio"; name="select3"; value="No"; required="required">No<br/>
+      5. Do you cook? <input type="radio"; name="select4"; value="Yes">Yes <input type="radio"; name="select4"; value="No"; required="required">No<br/>
+      6. Do you live on your own? <input type="radio"; name="select5"; value="Yes">Yes <input type="radio"; name="select5"; value="No"; required="required">No&emsp;&emsp;If no, whom do you currently reside with? <input type="text"; name="comment1"; value="" size="30" maxlength="30"><br/>
+      7.Do you currently have a source of income? <input type="radio"; name="select6"; value="Yes">Yes <input type="radio"; name="select6"; value="No"; required="required">No&emsp;&emsp;If yes, what is it? <input type="text"; name="comment2"; value=""; size="30"; maxlength="30"><br/>
+      8. Upload a bank statement: <input type="file"; name="upload"; id="upload">
+      </p>
+      <hr/>
+      <p>
+      Check all that apply to you:<br/>
+      I have tattoos and/or piercings: <input type="checkbox"; name="condition"; value="tattoos"><br/> 
+      I own a bike/car <input type="checkbox"; name="condition"; value="vehicle"><br/>
+      I work full-time <input type="checkbox"; name="condition"; value="work"><br/>
+      My parents are rich <input type="checkbox"; name="condition"; value="rich"><br/>
+      <br/>
+      <label for="comments">Why do you want to date my son? </label><br/>
+      <textarea id="comments"; name="comments"; cols="50"; rows="8"></textarea>
+      </p>
+      <input type="submit"; value="Submit"; class="submit">
+      <hr/>
+      </form>
+   </body>
+</html>
